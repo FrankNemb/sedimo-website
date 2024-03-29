@@ -1,0 +1,172 @@
+
+
+.contact-card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(47, 40, 59); 
+    color: white;
+  
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.contact-title{
+    color: rgb(227, 225, 225);
+
+    font-size: 90px;
+    padding-bottom: 50px;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: contain;
+
+    padding-bottom: 50px;
+
+}
+
+
+
+.contact-details{
+    height: 30px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+
+    border-radius: 5px;
+
+}
+
+.contact-details:hover{
+
+    background-color: rgb(78, 68, 88);
+    
+
+}
+
+
+
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+.icon-picture{
+    height: 30px;
+    width: 30px;
+}
+
+.link{
+    width: 150px;
+}
+
+.location-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.location-icon{
+    height: 82px; 
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.google-maps{
+    border-radius: 5px;
+}
+
+
+
+
+@media(max-width: 1000px){
+    .contact-card{
+        
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 50px;
+    
+    }
+
+    .contact-content{
+        flex-direction: column;
+        width: 100px
+    }
+
+    .contact-details{
+        width: 220px;
+        height: 30px;
+        padding: 20px;
+    
+    }
+
+    .location-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .address-picture{
+        width: 600px;
+       
+    }
+
+    .contact-title{
+
+        font-size: 100px;
+       
+    }
+}
+
+
+@media(max-width: 600px){
+    .contact-card{
+        
+      
+        flex-direction: column;
+        padding-bottom: 50px;
+
+
+    }
+
+    .contact-content{
+        flex-direction: column;
+    }
+
+    .location-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .address-picture{
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .contact-title{
+
+        font-size: 100px;
+       
+    }
+}
+
+
+
