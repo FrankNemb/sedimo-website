@@ -89,10 +89,6 @@
     padding-bottom: 50px;
   }
 
-  .news-card{
-    width: 240px;
-  }
-
   .news-title{
     width: 240px;
   }
@@ -111,10 +107,6 @@
     align-items: center;
 
     padding-bottom: 50px;
-  }
-
-  .news-card{
-    width: 220px;
   }
 
   .news-title{
@@ -164,9 +156,6 @@
 }
 
 @media(max-width: 281px){
-  .news-card{
-    width: 250px;
-  }
   
   .news-video-container,
   .news-video {
