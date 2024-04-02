@@ -89,24 +89,52 @@ header {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 420px) {
   .header-button {
     width: 50px;
   }
 
   .logo-picture {
     height: auto;
-    width: 130px;
+    width: 80px;
+  }
+
+  .logo{
+    padding-top: 10px;
+    height: 40px;
   }
 }
 
 @media (max-width: 325px) {
   .header-button {
-    width: 0px;
+    width: 50px;
   }
 
   .logo-picture {
     height: auto;
     width: 80px;
+
+  }
+}
+
+@media(max-width: 281px){
+  .header-button {
+    width: 50px;
+  }
+
+
+
+  .logo-picture {
+    height: auto;
+    width: 80px;
+
+  
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

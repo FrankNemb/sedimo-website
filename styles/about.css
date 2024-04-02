@@ -231,3 +231,34 @@
         padding-top: 200px;
     }
 }
+
+@media(max-width: 430px){
+
+    .about-image{
+        height: 300px;
+        width: 300px;
+    }
+
+    .about-founder-content{
+        padding-top: 200px;
+    }
+}
+
+@media(max-width: 281px){
+    .about-image{
+        width:200px;
+        height: 200px;
+    }
+
+    .about-founder-content{
+        padding-top: 200px;
+    }
+
+    .about-founder-title{
+       
+        padding-top: 40px;
+        color:rgb(240, 233, 246);
+        font-size: 40px;
+       
+    }
+}

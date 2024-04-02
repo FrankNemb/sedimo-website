@@ -196,6 +196,11 @@
     width: 500px;
   }
 
+  .project-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
   @media (max-width: 600px) {
     .service-page-content {
       grid-template-columns: 1fr;
@@ -212,5 +217,26 @@
     .image {
       width: 300px;
     }
+
+    .project-grid{
+      grid-template-columns: 1fr 1fr;
+    }
   }
-}
+
+  @media(max-width: 410px){
+    .project-grid{
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media(max-width: 281px){
+    .service-card{
+      height: auto;
+      width: 200px;
+    }
+
+    .image{
+      width: 200px;
+    }
+  }
+

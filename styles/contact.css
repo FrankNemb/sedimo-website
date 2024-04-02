@@ -168,5 +168,25 @@
     }
 }
 
+@media(max-width:430px){
+    .google-maps{
+        width: 300px;
+    }
+
+    .contact-title{
+
+        font-size: 50px;
+       
+    }
+}
+
+
+@media(max-width: 281px){
+
+    
+    .google-maps{
+        width: 250px;
+    }
+}
 
 
